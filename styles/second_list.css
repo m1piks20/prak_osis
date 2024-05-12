@@ -1,0 +1,91 @@
+.second_list{
+    height: 437px;
+    width: 100%;
+
+    background-color: #222224;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    position: absolute;
+    width: 1321px;
+    height: 230px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: start; 
+}
+
+.card{
+    width: 246px;
+    height: 212px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 22.5px; 
+}
+
+
+.img_card{
+    width: 60px;
+    height: 60px;
+    padding-bottom: 30px;
+}
+
+.title_card{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: "Ubuntu Sans", sans-serif;
+    padding-bottom: 20px;
+}
+
+.text_card{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #ededed;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+.decor_card{
+    position: relative;
+    top: -30px;
+    left: -4px;
+}
+
+.text_block{
+    width: 427px;
+    height: 224px;
+
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+
+    margin-left: 20px;
+}
+
+.f_text{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 136%;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Ubuntu Sans", sans-serif;
+    padding-bottom: 20px;
+}
+
+.s_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+    font-family: "Ubuntu Sans", sans-serif;
+}

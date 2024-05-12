@@ -1,0 +1,142 @@
+.main_section{
+    background-image: url("../img/first__bg.png");
+    width: 100%;
+    height: 870px;
+    display: flex;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.slider{
+    display: flex;
+    margin: 0 0 0 300px;
+    align-items: center;
+    animation: fadeIn 2s;
+    transition: opacity 2s ease-in-out;
+}
+
+
+.slider_text{
+    width: 854px;
+    height: 497px;
+    
+}
+
+#main_text{
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Ubuntu Sans", sans-serif;
+    padding-bottom: 20px;
+}
+
+#main_p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    font-family: "Ubuntu Sans", sans-serif;
+    padding-bottom: 70px;
+}
+
+#learn_more_btn{
+    border-radius: 5px;
+    width: 200px;
+    height: 65px;
+    background: #f23849;
+    border: none;
+}
+
+.text_btn{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+#learn_more_btn:hover{
+    transition: .5s;
+    background: #222224;
+}
+
+.box{
+    border-radius: 12px;
+    width: 158px;
+    height: 175px;
+    
+    backdrop-filter: blur(25px);
+    background: rgba(255, 255, 255, 0.35);
+
+    margin-left: 300px;
+    position: relative;
+    top: -142px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dots {
+    position: relative;
+    top: -5%;
+    left: -5%;
+
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.dot{
+    padding-bottom: 10px;
+}
+
+#main_img{
+    border-radius: 128px;
+    width: 70px;
+    height: 70px;
+}
+
+#trainer-name{
+    padding-top: 26px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #161617;
+    font-family: "Poppins", sans-serif;
+}
+
+#course{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 393px){
+
+    .main_section{
+        background-image: url("../img_mobile/1bg_mobile.png");
+        width: 100%;
+        height: 178px;
+        display: flex;
+    }
+    
+    #main_text{
+        font-size: 14px;
+        color: black;
+    }
+    
+}

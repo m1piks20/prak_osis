@@ -1,0 +1,74 @@
+.fifth_list {
+    width: 100%;
+    height: 650px;
+    background: url("/men.png");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    position: relative;
+}
+
+.image-button {
+    border: none;
+    background: none;
+}
+
+.image-button img {
+    width: 150px;
+    height: 150px;
+    transition: transform 0.5s;
+}
+
+.image-button.clicked img {
+    transform: scale(1.2);
+}
+
+.row{
+    width: 285px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    right: 300px; 
+    bottom: 48px;
+}
+
+.row_text{
+    background: #222224;
+
+    width: 215px;
+    height: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.text_clock{
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn_row{
+    border-radius: 0 15px 0 0;
+    width: 70px;
+    height: 65px;
+    background: #f23849;
+    border: none;
+}
+
+.btn_row:hover {
+    transition: .5s;
+    background: #222224;
+}
