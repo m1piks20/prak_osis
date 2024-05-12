@@ -126,17 +126,78 @@
 }
 
 @media (max-width: 393px){
-
     .main_section{
-        background-image: url("../img_mobile/1bg_mobile.png");
-        width: 100%;
-        height: 178px;
+        height: 270px;
         display: flex;
+        align-items: center;
+        background-image: url("../img_mobile/1bg_mobile.png");
     }
-    
+
+    .slider{
+        margin: 0 30px;
+        display: block;
+    }
+
+    .slider_text{
+        width: calc(100% - 60px);
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+    }
+
     #main_text{
         font-size: 14px;
-        color: black;
+        padding-bottom: 10px;
     }
-    
+
+    #main_p{
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+
+    #learn_more_btn{
+        width: 85px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text_btn{
+        font-size: 6px;
+    }
+
+    .box{
+        width: 70px;
+        height: 100px;
+        position: absolute;
+        top: 134px;
+        right: 16px;
+        margin: 0;
+        
+    }
+
+    #main_img{
+        width: 30px;
+        height: 30px;
+        
+    }
+
+    #trainer-name{
+        padding-top: 10px;
+        font-size: 6px;
+        
+    }
+
+    #course{
+        font-size: 5px;
+        
+    }
+
+    .dots{
+        display: none;
+        
+    }
 }
