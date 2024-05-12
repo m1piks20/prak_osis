@@ -133,4 +133,12 @@ hr {
         margin-bottom: 30px;
     }
 
+    .f_text {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .s_text {
+        font-size: 14px;
+    }
 }

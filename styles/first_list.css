@@ -130,12 +130,14 @@
         height: 270px;
         display: flex;
         align-items: center;
-        background-image: url("../img_mobile/1bg_mobilee.png");
+        background-image: url("../img_mobile/unsplash_KaxVB5xh4Nw\ \(1\).png");
     }
 
     .slider{
         margin: 0 30px;
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .slider_text{
@@ -143,12 +145,13 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        
+        align-items: center;
         justify-content: center;
+        text-align: center;
     }
 
     #main_text{
-        font-size: 14px;
+        font-size: 20px;
         padding-bottom: 10px;
     }
 
@@ -176,6 +179,7 @@
         top: 134px;
         right: 16px;
         margin: 0;
+        display: none;
         
     }
 
