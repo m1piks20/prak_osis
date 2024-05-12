@@ -266,7 +266,11 @@
     }
 
     .about_title{
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    .about_text{
+        font-size: 14px;
     }
 
     .up{
@@ -302,9 +306,15 @@
     }
 
     .plus{
-        right: 70px;
-        width: 45px;
-        height: 45px;
+        right: 90px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-shrink: 0;
+        line-height: 40px;
     }
 
     .about{
@@ -312,6 +322,8 @@
         left: 0;
         display: none;
     }
+
+    
 
     .images_about img{
         width: 393px;
