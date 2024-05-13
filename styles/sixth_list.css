@@ -111,7 +111,7 @@
 
 @media (max-width: 393px) {
     .sixth_list {
-        height: 1000px;
+        height: 900px;
     }
 
     .slider_2, .slider_1, .slider_3 {
@@ -127,7 +127,7 @@
         flex-direction: column;
         text-align: center;
         position: relative;
-        top: -90px;
+        top: -50px;
     }
 
     .slider2_title {
@@ -166,6 +166,7 @@
     .slide2__btn {
         width: 100%;
         left: 0;
+        bottom: -30px;
     }
 
     .slid_img{
