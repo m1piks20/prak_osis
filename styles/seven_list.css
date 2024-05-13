@@ -309,3 +309,36 @@ input:checked + .toggle:before {
     background: #4CAF50;
     color: #fff;
 }
+
+
+
+@media (max-width: 393px) {
+    .seven_list {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .seven_txt{
+        margin-top: 60px;
+        margin-bottom: 0;
+        height: auto;
+        width: 100%;
+    }
+
+    .seven_title{
+        font-size: 16px;
+    }
+
+    .seven_text{
+        font-size: 12px;
+    }
+
+
+    .premium_standart{
+
+    }
+
+    .swiper-container {
+        display: block;
+    }
+}
