@@ -85,13 +85,13 @@ updateSlide();
 
 //setInterval(nextSlide, 5000);
 
-// function animateButton() {
-//     var button = document.querySelector('.image-button');
-//     button.classList.add('clicked');
-//     setTimeout(function() {
-//         button.classList.remove('clicked');
-//     }, 500);
-// }
+function animateButton() {
+    var button = document.querySelector('.image-button');
+    button.classList.add('clicked');
+    setTimeout(function() {
+        button.classList.remove('clicked');
+    }, 500);
+}
 
 
 // let slideIndex = 0;
