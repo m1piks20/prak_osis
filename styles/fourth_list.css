@@ -2,15 +2,23 @@
     width: 100%;
     height: 500px;
 
-    background-color: #222224;
+    background-image: url("../img/bg_four.png");
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.four{
+    width: 1322px;
+    height: 313px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .join{
-    position: absolute;
+    
     
     background-color: #F23849;
 
@@ -18,12 +26,10 @@
     height: 313px;
 
     border-radius: 10px;
-    left: 300px;
 }
 
 .effects{
-    position: absolute;
-    right: 296px;
+    margin-left: 132px;
 }
 
 .join {
@@ -67,4 +73,45 @@
 .btn_join:hover{
     transition: .5s;
     background: #222224;
+}
+
+.effects_mobile{
+    display: none;
+}
+
+@media screen and (max-width: 393px) {
+    .fourth_list{
+        height: 570px;
+        padding: 20px;
+    }
+
+    .four{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .join{
+        width: 242px;
+        height: 218px;
+        padding: 20px;
+    }
+
+    .effects{
+        display: none;
+    }
+
+    .effects_mobile{
+        display: block;
+        margin-bottom: 46px;
+    }
+
+    .text_join{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .btn_join{
+        width: 160px;
+    height: 55px;
+    }
 }

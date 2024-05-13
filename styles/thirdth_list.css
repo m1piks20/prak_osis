@@ -245,7 +245,7 @@
 
 @media screen and (max-width: 393px) {
     .thirdth_list{
-        height: auto;
+        height: 1200px;
         flex-direction: column;
     }
 
