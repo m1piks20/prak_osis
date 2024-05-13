@@ -146,7 +146,7 @@
     transform: translateY(0) rotate(-45deg);
 }
 
-@media (max-width: 393px){
+@media (max-width: 400px){
 
     .header{
         width: 100%;

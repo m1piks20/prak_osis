@@ -79,7 +79,7 @@
     display: none;
 }
 
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 400px) {
     .fourth_list{
         height: 570px;
         padding: 20px;
