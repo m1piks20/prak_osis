@@ -321,7 +321,6 @@ input:checked + .toggle:before {
 
 .standart_mobile{
     border-radius: 24px;
-    width: 432px;
     height: 512px;
 
     background: #343436;
@@ -332,6 +331,11 @@ input:checked + .toggle:before {
 }
 
 @media (max-width: 393px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
     .seven_list {
         flex-direction: column;
         height: 835px;
@@ -358,7 +362,6 @@ input:checked + .toggle:before {
 
     .tarif_mobile{
         display: flex;
-        flex-direction: column;
         width: 100%;
     }
     

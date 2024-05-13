@@ -141,6 +141,9 @@ $(document).ready(function(){
 });
 
 var swiper = new Swiper('.swiper-container', {
+    
+    slidesPerView: 'auto',
+    watchOverflow: true,
     direction: 'horizontal',
     loop: true,
     pagination: {
@@ -150,3 +153,5 @@ var swiper = new Swiper('.swiper-container', {
         el: '.swiper-scrollbar',
     },
 });
+
+swiper.update();
