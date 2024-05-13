@@ -94,27 +94,48 @@ function animateButton() {
 }
 
 
-// let slideIndex = 0;
-// showSlides();
+document.addEventListener('DOMContentLoaded', function() {
+    var prevButton = document.querySelector('.previos');
+    var prevButtonImg = prevButton.querySelector('img');
+    prevButton.addEventListener('mouseover', function() {
+        prevButtonImg.src = 'img/Arrow---Right.png';
+    });
+    prevButton.addEventListener('mouseout', function() {
+        prevButtonImg.src = 'img/arrow__rewers.png';
+    });
+});
 
-// function showSlides() {
-//     let i;
-//     let slides = document.getElementsByClassName("slid_img");
-//     for (i = 0; i < slides.length; i++) {
-//         slides[i].style.display = "none";  
-//     }
-//     slideIndex++;
-//     if (slideIndex > slides.length) {slideIndex = 1}    
-//     slides[slideIndex-1].style.display = "block";  
-//     setTimeout(showSlides, 2000); // Change image every 2 seconds
-// }
 
-// document.getElementsByClassName("previos")[0].addEventListener("click", function() {
-//     slideIndex -= 2;
-//     if (slideIndex < 0) {slideIndex = slides.length - 1}
-//     showSlides();
-// });
+document.addEventListener('DOMContentLoaded', function() {
+    var prevButton = document.querySelector('.next');
+    var prevButtonImg = prevButton.querySelector('img');
+    prevButton.addEventListener('mouseover', function() {
+        prevButtonImg.src = 'img/Arrow---Right__revers.png';
+    });
+    prevButton.addEventListener('mouseout', function() {
+        prevButtonImg.src = 'img/Arrow---leftt.png';
+    });
+});
 
-// document.getElementsByClassName("next")[0].addEventListener("click", function() {
-//     showSlides();
-// });
+
+$(document).ready(function(){
+    var sliderItems = [".slider_1", ".slider_2", ".slider_3"];
+    var currentIndex = 0;
+
+    function showSliderItem(index) {
+        $(sliderItems.join(", ")).hide(); // Hide all slider items
+        $(sliderItems[index]).fadeIn(1000); // Show the current slider item with a fade-in animation
+    }
+
+    $(".next").click(function(){
+        currentIndex = (currentIndex + 1) % sliderItems.length; // Move to the next item, loop back to the first item if at the end
+        showSliderItem(currentIndex);
+    });
+
+    $(".previos").click(function(){
+        currentIndex = (currentIndex - 1 + sliderItems.length) % sliderItems.length; // Move to the previous item, loop back to the last item if at the start
+        showSliderItem(currentIndex);
+    });
+
+    showSliderItem(currentIndex); // Show the first item initially
+});
