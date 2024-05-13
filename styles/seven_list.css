@@ -1,0 +1,311 @@
+.seven_list{
+    width: 100%;
+    height: 1090px;
+    background-image: url("/img/seven_bg.png");
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+
+.seven_txt{
+    width: 587px;
+    height: 178px;
+    margin-bottom: 50px;
+    margin-top: 131px;
+}
+
+.seven_title{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 114%;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.seven_text{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center; 
+    color: #fff;
+}
+
+.cheker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 296px;
+    height: 40px;
+}
+
+.Monthly{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 8px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-right: 10px;
+}
+
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.toggle:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .toggle {
+    background-color: #4CAF50;
+}
+
+input:focus + .toggle {
+    box-shadow: 0 0 1px #4CAF50;
+}
+
+input:checked + .toggle:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.toggle.round {
+    border-radius: 34px;
+}
+
+.toggle.round:before {
+    border-radius: 50%;
+}
+
+
+.Yearly{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 18px;
+}
+
+.save{
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    background: #343436;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.save_txt{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 250%;
+    text-align: center;
+    color: #ffe24c;
+}
+
+.tarif{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 1321px;
+    height: 512px;
+}
+
+.premium_standart{
+    width: 837px;
+    height: 512px;
+    display: flex;
+    align-items: center;
+
+    border-radius: 24px;
+    background: #343436;
+
+    justify-content: space-around;
+}
+
+.standart{
+    width: 160px;
+    height: 432px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prem{
+    width: 160px;
+    height: 432px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name_tariv{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    text-align: center;
+    color: #969696;
+    margin-bottom: 23px;
+}
+
+.coast{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 111%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.eco{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: line-through;
+    text-align: center;
+    color: #616161;
+    margin-bottom: 15px;
+}
+
+.func{
+    width: 152px;
+    height: 96px;
+    margin-bottom: 108px;
+}
+
+.text_prem{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: center;
+    color: #969696;
+}
+
+.details{
+    border-radius: 5px;
+    width: 160px;
+    height: 55px;
+    background: #222224;
+    border: none;
+
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+}
+
+.details:hover{
+    background: #4CAF50;
+}
+
+.expert{
+    border-radius: 24px;
+    width: 432px;
+    height: 512px;
+
+    background: #f23849;
+    margin-left: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expert_container{
+    width: 160px;
+    height: 432px;
+}
+
+.name_tariv_exp{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    text-align: center;
+    color: #e5e5e5;
+    margin-bottom: 23px;
+}
+
+.eco_exp{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: line-through;
+    text-align: center;
+    color: #222224;
+    margin-bottom: 10px;
+}
+
+.text_exp{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: center;
+    color: #e5e5e5;
+    word-wrap: break-word;
+}
+
+.details__exp{
+    border-radius: 5px;
+    width: 160px;
+    height: 55px;
+    background: #fff;
+    border: none;
+
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #f23849;
+}
+
+.details__exp:hover{
+    background: #4CAF50;
+    color: #fff;
+}

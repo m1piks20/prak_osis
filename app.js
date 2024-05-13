@@ -123,19 +123,19 @@ $(document).ready(function(){
     var currentIndex = 0;
 
     function showSliderItem(index) {
-        $(sliderItems.join(", ")).hide(); // Hide all slider items
-        $(sliderItems[index]).fadeIn(1000); // Show the current slider item with a fade-in animation
+        $(sliderItems.join(", ")).hide(); 
+        $(sliderItems[index]).fadeIn(1000); 
     }
 
     $(".next").click(function(){
-        currentIndex = (currentIndex + 1) % sliderItems.length; // Move to the next item, loop back to the first item if at the end
+        currentIndex = (currentIndex + 1) % sliderItems.length; 
         showSliderItem(currentIndex);
     });
 
     $(".previos").click(function(){
-        currentIndex = (currentIndex - 1 + sliderItems.length) % sliderItems.length; // Move to the previous item, loop back to the last item if at the start
+        currentIndex = (currentIndex - 1 + sliderItems.length) % sliderItems.length; 
         showSliderItem(currentIndex);
     });
 
-    showSliderItem(currentIndex); // Show the first item initially
+    showSliderItem(currentIndex); 
 });
