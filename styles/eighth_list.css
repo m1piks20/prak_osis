@@ -43,12 +43,10 @@
     width: 1302px;
     height: 651px;
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 51px;
     margin-top: 50px;
 }
-
 .person_container1, .person_container3{
     width: 400px;
     height: 651px;
@@ -61,6 +59,7 @@
 .view_trainer1{
     width: 313px;
     height: 523px;
+    position: relative;
 }
 
 .bg_def1, .bg_def3{
@@ -134,10 +133,12 @@
 .view_trainer2{
     width: 373px;
     height: 522.99px;
+    position: relative;
 }
 
 .view_trainer3{
     height: 522.99px;
+    position: relative;
 }
 .person_container2{
     width: 400px;
@@ -170,10 +171,10 @@
     margin-left: 186px;
 }
 
+
 @media (max-width: 393px) {
     .eighth_list {
-        height: auto;
-        padding: 20px 0;
+        height: 2400px;
     }
 
     .eighth_txt {
@@ -185,26 +186,37 @@
         flex-direction: column;
         width: 90%;
         height: auto;
-        margin-top: 20px;
+        margin-top: 150px;
     }
 
     .person_container1, .person_container2, .person_container3 {
         width: 100%;
-        height: auto;
+    }
+
+    .person_container1 {
+        order: 2;
+    }
+
+    .person_container2 {
+        order: 1;
+    }
+
+    .person_container3 {
+        order: 3;
     }
 
     .view_trainer1, .view_trainer2, .view_trainer3 {
         width: 100%;
-        height: auto;
     }
 
     .bg_def1, .bg_def2, .bg_def3 {
         width: 100%;
-        height: auto;
+        
     }
 
     .info1, .info2, .info3 {
         width: 100%;
+        height: 128px;
     }
 
     .nagradi2 {
@@ -218,4 +230,5 @@
     .nagradi1 {
         margin-left: 100px;
     }
+
 }
