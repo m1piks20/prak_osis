@@ -1,0 +1,285 @@
+.ninth_list{
+    width: 100%;
+    height: 823px;
+    background-image: url("../img/bg_nine.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nine_text{
+    margin-top: 118px;
+    width: 467px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 99px;
+}
+
+.nine_title{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 114%;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.nine_txt{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.slidr_nine{
+    width: 1323px;
+    height: 386px;
+    display: flex;
+    align-items: center;
+    gap: 156px;
+
+}
+
+.slider_txt{
+    width: 464px;
+    height: 386px;
+}
+
+.slider_par{
+    width: 461px;
+    height: 178px;
+    margin-bottom: 40px;
+}
+
+.slider_p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.slider_name{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #f23849;
+}
+
+.seti_container{
+    width: 160px;
+    height: 48px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.slider_seti{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+
+.slider_seti a{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_btn{
+    margin-top: 80px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.prev_slide{
+    border-radius: 29px;
+    width: 80px;
+    height: 40px;
+    background: #28282a;
+
+    border: none;
+}
+
+.next_slide{
+    border-radius: 29px;
+    width: 80px;
+    height: 40px;
+    background: #fff;
+
+    border: none;
+}
+
+.prev_slide:hover{
+    background: #f23849;
+}
+
+.next_slide:hover{
+    background: #28282a;
+}
+
+.slider_img{
+    width: 706px;
+    height: 320px;
+}
+
+.slider_img img{
+    position: relative;
+}
+
+.img1{
+    top: 20%;
+    left: 35%;
+}
+
+.img2{
+    bottom: -43%;
+    left: -15%;
+}
+
+.img3{
+    top: -23%;
+    left: 25%;
+}
+
+.img4{
+    bottom: -43%;
+    left: 7%;
+}
+
+.img5{
+    top: -34%;
+    left: -50%;
+}
+
+.img6{
+    left: 9%;
+    bottom: -5%;
+}
+
+.img7{
+    top: -20%;
+}
+
+@media only screen and (max-width: 393px) {
+    .ninth_list{
+        height: auto;
+    }
+
+    .nine_text{
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .nine_title{
+        font-size: 28px;
+    }
+
+    .nine_txt{
+        font-size: 14px;
+    }
+
+    .slidr_nine{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        flex-direction: column-reverse;
+        margin-top: 190px;
+    }
+
+    .slider_txt{
+        width: 100%;
+    }
+
+    .slider_par{
+        width: 100%;
+    }
+
+    .slider_p{
+        font-size: 14px;
+    }
+
+    .slider_name{
+        font-size: 18px;
+    }
+
+    .seti_container{
+        justify-content: space-around;
+    }
+
+    .slider_btn{
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    .prev_slide, .next_slide{
+        width: 60px;
+        height: 30px;
+    }
+
+    .slider_img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* .img1, .img2, .img3, .img4, .img5, .img6, .img7{
+        top: 0;
+        left: 0;
+        bottom: 0;
+    } */
+    .img1{
+        top: 50px;
+        left: 100px;
+    }
+
+    .img2{
+        bottom: 85px;
+        left: 28px;
+    }
+
+    .img3{
+        top: -3px;
+        left: 0px;
+    }
+
+    .img4{
+        bottom: 92px;
+        left: -5px;
+    }
+
+    .img5{
+        top: -5px;
+        left: -20px;
+    }
+
+    .img6{
+        left: -147px;
+        bottom: 185px;
+    }
+    
+    .img7{
+        top: -4px;
+        left: 17px;
+    }
+}

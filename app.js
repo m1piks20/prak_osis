@@ -155,3 +155,31 @@ var swiper = new Swiper('.swiper-container', {
 });
 
 swiper.update();
+
+let currentSlide = 0;
+const textSlides = document.querySelectorAll('.slider_txt .slide');
+let imageSlides = document.querySelectorAll('.slider_img .img1, .slider_img .img2, .slider_img .img3, .slider_img .img4, .slider_img .img5, .slider_img .img6, .slider_img .img7');
+
+function showSlide(index) {
+    // Скрываем все слайды
+    textSlides.forEach(slide => slide.style.display = 'none');
+    imageSlides.forEach(slide => slide.style.transform = 'scale(0.5)');
+
+    // Показываем текущий слайд
+    textSlides[index].style.display = 'block';
+    imageSlides[index].style.transform = 'scale(1)';
+}
+
+// Обработчики для кнопок "вперед" и "назад"
+document.querySelector('.next_slide').addEventListener('click', () => {
+    currentSlide = (currentSlide + 1) % textSlides.length;
+    showSlide(currentSlide);
+});
+
+document.querySelector('.prev_slide').addEventListener('click', () => {
+    currentSlide = (currentSlide - 1 + textSlides.length) % textSlides.length;
+    showSlide(currentSlide);
+});
+
+// Показываем первый слайд при загрузке страницы
+showSlide(currentSlide);
