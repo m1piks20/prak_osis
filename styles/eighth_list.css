@@ -169,3 +169,53 @@
 .nagradi2{
     margin-left: 186px;
 }
+
+@media (max-width: 393px) {
+    .eighth_list {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .eighth_txt {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .person {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .person_container1, .person_container2, .person_container3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .view_trainer1, .view_trainer2, .view_trainer3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .bg_def1, .bg_def2, .bg_def3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .info1, .info2, .info3 {
+        width: 100%;
+    }
+
+    .nagradi2 {
+        margin-left: 155px;
+    }
+
+    .nagradi3 {
+        margin-left: 60px;
+    }
+
+    .nagradi1 {
+        margin-left: 100px;
+    }
+}
