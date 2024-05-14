@@ -247,6 +247,7 @@
     .thirdth_list{
         height: 1120px;
         display: flex;
+        position: static;
         align-items: start;
     }
 
