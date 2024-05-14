@@ -131,12 +131,14 @@
     }
 
     .slider2_title {
-        font-size: 24px;
+        font-size: 26px;
     }
 
     .skider2_text {
-        width: 100%;
+        width: 350px;
         font-size: 14px;
+        position: relative;
+        left: 4%;
     }
 
     .icon1, .icon2, .icon3 {
