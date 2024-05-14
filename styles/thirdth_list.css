@@ -245,8 +245,9 @@
 
 @media screen and (max-width: 400px) {
     .thirdth_list{
-        height: 1200px;
-        display: block;
+        height: 1120px;
+        display: flex;
+        align-items: start;
     }
 
     .container_about{
