@@ -374,7 +374,7 @@ input:checked + .toggle:before {
         margin-left: 0;
     }
 
-    .swiper-container {
+    .swiper {
         display: flex;
         width: 93%;
     }
