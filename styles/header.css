@@ -21,6 +21,10 @@
     background: #555; /* Adjust scrollbar thumb color when hovered */
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .header{
     width: 100%;
     height: 90px;

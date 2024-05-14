@@ -140,7 +140,7 @@ $(document).ready(function(){
     showSliderItem(currentIndex); 
 });
 
-var swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper('.swiper', {
     
     slidesPerView: 'auto',
     watchOverflow: true,

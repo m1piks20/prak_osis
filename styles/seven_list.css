@@ -375,15 +375,9 @@ input:checked + .toggle:before {
     }
 
     .swiper-container {
-        display: block;
+        display: flex;
+        width: 93%;
     }
+    
 }
 
-@media screen and (max-width: 393px) {
-    /* Ваши стили для экранов меньше или равных 393px здесь */
-    .swiper-container {
-        /* Пример стилей */
-        width: 100%;
-        height: 200px;
-    }
-}
