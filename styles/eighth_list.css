@@ -1,0 +1,171 @@
+.eighth_list{
+    width: 100%;
+    height: 1073px;
+    background-image: url("../img/bg8.png");
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.eighth_txt{
+    width: 467px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 117px;
+}
+
+.eighth_title{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 114%;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.eighth_text{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: #fff;
+}
+
+.person{
+    width: 1302px;
+    height: 651px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 51px;
+    margin-top: 50px;
+}
+
+.person_container1, .person_container3{
+    width: 400px;
+    height: 651px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.view_trainer1{
+    width: 313px;
+    height: 523px;
+}
+
+.bg_def1, .bg_def3{
+    border-radius: 15px 100px 15px 15px;
+    width: 400px;
+    height: 418px;
+
+    background: #fff;
+    opacity: 0.05;
+
+    bottom: 0;
+    position: absolute;
+}
+
+.info1, .info3{
+    border-radius: 0 0 15px 15px;
+    width: 400px;
+    height: 128px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.tren_txt{
+    margin-left: 20px;
+}
+
+.name_trener1, .name_trener3{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #f23849;
+}
+
+.coach_direction1, .coach_direction3{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: #f23849;
+}
+.nagradi1{
+    margin-left: 144px;
+}
+
+.view_trainer3{
+    width: 396px;
+    height: 541px;
+}
+
+.bg_def2{
+    border-radius: 15px 100px 15px 15px;
+    width: 400px;
+    height: 418px;
+    background: #f23849;
+    opacity: 0.1;
+
+    bottom: 0;
+    position: absolute;
+}
+
+.info2{
+    border-radius: 0 0 15px 15px;
+    width: 400px;
+    height: 128px;
+    background: #f23849;
+    display: flex;
+    align-items: center;
+}
+
+.view_trainer2{
+    width: 373px;
+    height: 522.99px;
+}
+
+.view_trainer3{
+    height: 522.99px;
+}
+.person_container2{
+    width: 400px;
+    height: 651px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.nagradi3{
+    margin-left: 100px;
+}
+
+.name_trener2{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.coach_direction2{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: #fff;
+}
+.nagradi2{
+    margin-left: 186px;
+}
