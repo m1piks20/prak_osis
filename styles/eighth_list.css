@@ -171,6 +171,39 @@
     margin-left: 186px;
 }
 
+.seti{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.seti a{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#insta, #facebook, #twitter{
+    right: 40px;
+}
+
+#twitter{
+    top: 58px;
+}
+
+#facebook{
+    top: 116px;
+}
+
 
 @media (max-width: 393px) {
     .eighth_list {
