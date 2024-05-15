@@ -183,3 +183,9 @@ document.querySelector('.prev_slide').addEventListener('click', () => {
 
 // Показываем первый слайд при загрузке страницы
 showSlide(currentSlide);
+
+$(document).ready(function(){
+    if($(window).width() <= 393){
+        $('.input_news').attr('maxlength','14');
+    }
+});
