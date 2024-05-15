@@ -83,7 +83,7 @@ function prevSlide() {
 
 updateSlide();
 
-//setInterval(nextSlide, 5000);
+setInterval(nextSlide, 5000);
 
 function animateButton() {
     var button = document.querySelector('.image-button');
