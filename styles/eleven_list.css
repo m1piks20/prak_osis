@@ -58,13 +58,26 @@
     border: none;
 }
 
+.input_news {
+    padding-left: 20px; 
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #969696;
+}
+
+.input_news:focus {
+    outline: none; /* Removes the default browser outline */
+    border: 1px solid red; /* Adds a red border */
+}
+
 .input_news::placeholder{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 200%;
     color: #969696;
-    padding-left: 20px;
 }
 
 .news_search button{
