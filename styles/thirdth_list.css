@@ -242,7 +242,7 @@
 
 @media screen and (max-width: 400px) {
     .thirdth_list{
-        height: 1120px;
+        height: 1020px;
         display: flex;
         
         align-items: start;
@@ -250,9 +250,9 @@
 
     .container_about{
         width: 100%;
-        height: auto;
         flex-direction: column;
         padding-left: 0;
+        position: relative;
     }
 
     .about_info{
@@ -297,6 +297,7 @@
         width: 100%;
         gap: 15px;
         margin-left: 0;
+        margin-bottom: 50px;
     }
 
     .one{
@@ -304,8 +305,10 @@
         margin-bottom: 20px;
     }
 
-    .about_img{
+    .about_img {
         margin-left: 0;
+        position: relative;
+        left: 5px;
     }
 
     .plus{
@@ -326,10 +329,7 @@
         display: none;
     }
 
-    
-
     .images_about img{
-        width: 393px;
-        height: 400px;
+        width: 375px;
     }
 }
