@@ -1,0 +1,287 @@
+.footer{
+    width: 100%;
+    height: 575px;
+    background-image: url('../img/img_footer.png');
+    background-repeat: no-repeat;
+    background-color: #28282A;
+    background-position: 540px;
+    background-position-y: unset;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.footer_info{
+    width: 1321px;
+    height: 375px;
+    margin-top: 90px;
+    display: flex;
+    /* gap: 132px; */
+}
+
+.colum1{
+    width: 287px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_text{
+    margin-top: 20px;
+    width: 255px;
+    height: 90px;
+}
+
+.footer_text p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #fff;
+}
+
+.contact{
+    margin-top: 50px;
+    width: 159px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.number{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #969696;
+}
+
+.email{
+    margin-top: 30px;
+    width: 214px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.email p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #969696;
+}
+
+.place{
+    margin-top: 30px;
+    width: 186px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.place p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #969696;
+}
+
+.colum2{
+    width: 156px;
+    height: 353px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+}
+
+.colum2_txt{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.colum2_txt p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 275%;
+    color: #fff;
+}
+
+.colum2_text{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 136%;
+    color: #fff;
+}
+
+.colum3{
+    margin-left: 131px;
+    width: 105px;
+    height: 309px;
+}
+
+.colum4{
+    width: 320px;
+    height: 337px;
+    margin-left: 182px;
+}
+
+.header_text{
+    display: flex;
+    align-items: center;
+}
+
+.textik{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 136%;
+    color: #fff;
+    margin-right: 53px;
+}
+
+.sunday{
+    border-radius: 27px;
+    width: 113px;
+    height: 21px;
+    background: #f23849;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sunday p{
+    font-family: 'Ubuntu', sans-serif;
+
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+.monday{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.monday img{
+    margin-right: 13px;
+}
+
+.day{
+    margin-right: 80px;
+}
+
+.monday p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #fff;
+}
+
+.day_thu{
+    margin-right: 58px;
+}
+
+.day_fri{
+    margin-right: 95px;
+}
+
+.footer_copirayt{
+    width: 100%;
+    height: 50px;
+    background: #161617;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center{
+    width: 1320px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copirate p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    color: #777e90;
+}
+
+/* Your existing CSS code */
+
+/* Media query for screens less than or equal to 393px */
+/* Your existing CSS code */
+
+/* Media query for screens less than or equal to 393px */
+@media screen and (max-width: 393px) {
+    .footer {
+        height: auto;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        /* padding: 20px; */
+    }
+
+    .footer_info {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .colum1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer_text {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact, .email, .place {
+        width: 100%;
+        height: auto;
+    }
+
+    .colum2, .colum3 {
+        display: none; /* Hides the colum2 and colum3 elements */
+    }
+
+    .colum4 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .footer_copirayt {
+        width: 100%;
+        position: relative;
+        margin-top: 40px;
+    }
+
+    .center {
+        width: 100%;
+    }
+}
