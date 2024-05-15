@@ -242,6 +242,10 @@
         /* padding: 20px; */
     }
 
+    .number{
+        text-decoration: none;
+    }
+
     .footer_info {
         flex-direction: column;
         width: 100%;
