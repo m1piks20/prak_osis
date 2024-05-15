@@ -122,23 +122,40 @@ $(document).ready(function(){
     var sliderItems = [".slider_1", ".slider_2", ".slider_3"];
     var currentIndex = 0;
 
-    function showSliderItem(index) {
-        $(sliderItems.join(", ")).hide(); 
-        $(sliderItems[index]).fadeIn(1000); 
+    // Скрыть все слайды при загрузке страницы
+    $(sliderItems.join(", ")).hide();
+    // Показать только текущий слайд
+    $(sliderItems[currentIndex]).css({left: 0}).show();
+
+    function showSliderItem(index, direction) {
+        var currentSlide = $(sliderItems[currentIndex]);
+        var nextSlide = $(sliderItems[index]);
+
+        if (direction === 'next') {
+            currentSlide.animate({left: '-200%'}, 1000).promise().done(function() {
+                currentSlide.hide();
+                nextSlide.css({left: '100%'}).show().animate({left: 0}, 1000);
+            });
+        } else {
+            currentSlide.animate({left: '100%'}, 1000).promise().done(function() {
+                currentSlide.hide();
+                nextSlide.css({left: '-100%'}).show().animate({left: 0}, 1000);
+            });
+        }
+        currentIndex = index;
     }
 
     $(".next").click(function(){
-        currentIndex = (currentIndex + 1) % sliderItems.length; 
-        showSliderItem(currentIndex);
+        var nextIndex = (currentIndex + 1) % sliderItems.length; 
+        showSliderItem(nextIndex, 'next');
     });
 
     $(".previos").click(function(){
-        currentIndex = (currentIndex - 1 + sliderItems.length) % sliderItems.length; 
-        showSliderItem(currentIndex);
+        var prevIndex = (currentIndex - 1 + sliderItems.length) % sliderItems.length; 
+        showSliderItem(prevIndex, 'previos');
     });
-
-    showSliderItem(currentIndex); 
 });
+
 
 var swiper = new Swiper('.swiper', {
     
