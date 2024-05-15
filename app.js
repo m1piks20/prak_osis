@@ -139,7 +139,7 @@ $(document).ready(function(){
         } else {
             currentSlide.animate({left: '100%'}, 1000).promise().done(function() {
                 currentSlide.hide();
-                nextSlide.css({left: '-100%'}).show().animate({left: 0}, 1000);
+                nextSlide.css({left: '-200%'}).show().animate({left: 0}, 1000);
             });
         }
         currentIndex = index;
