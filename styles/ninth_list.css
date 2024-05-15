@@ -182,8 +182,8 @@
 }
 
 @media only screen and (max-width: 393px) {
-    .ninth_list{
-        height: auto;
+    .ninth_list {
+        height: 860px;
     }
 
     .nine_text{
