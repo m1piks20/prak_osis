@@ -196,6 +196,7 @@ body {
         justify-self: center;
         text-align: end;
         transition: left 0.5s ease;
+        display: none;
     }
 
     .menu{
@@ -213,6 +214,23 @@ body {
     .header.open .bar_menu{
         right: 0;
         z-index: 1;
-        
+        display: block;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px; /* Adjust scrollbar width */
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 5px; /* Adjust scrollbar track color */
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #888; /* Adjust scrollbar thumb color */
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555; /* Adjust scrollbar thumb color when hovered */
     }
 }
