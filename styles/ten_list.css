@@ -1,0 +1,58 @@
+.ten_list{
+    width: 100%;
+    height: 239px;
+    background-color: #28282A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ten_container{
+    width: 1282px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ten_card{
+    display: flex;
+    align-items: center;
+    width: 267px;
+    height: 70px;
+    gap: 20px;
+    
+}
+
+.ten_card_h{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.ten_card_p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #fff;
+}
+
+@media screen and (max-width: 393px) {
+    .ten_list{
+        height: 420px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ten_container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
