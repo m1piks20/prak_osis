@@ -133,7 +133,8 @@
         height: 270px;
         display: flex;
         align-items: center;
-        background-image: url("../img_mobile/unsplash_KaxVB5xh4Nw\ \(1\).png");
+        background-image: url("../img_mobile/unsplash_KaxVB5xh4Nw\ \(2\).png");
+        background-position: center;
     }
 
     .slider{

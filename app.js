@@ -83,7 +83,10 @@ function prevSlide() {
 
 updateSlide();
 
-setInterval(nextSlide, 5000);
+// setInterval(nextSlide, 5000);
+
+
+
 
 function animateButton() {
     var button = document.querySelector('.image-button');
@@ -122,9 +125,7 @@ $(document).ready(function(){
     var sliderItems = [".slider_1", ".slider_2", ".slider_3"];
     var currentIndex = 0;
 
-    // Скрыть все слайды при загрузке страницы
     $(sliderItems.join(", ")).hide();
-    // Показать только текущий слайд
     $(sliderItems[currentIndex]).css({left: 0}).show();
 
     function showSliderItem(index, direction) {

@@ -170,11 +170,13 @@ body {
     .logo_nav img{
         width: 80px;
         height: 40px;
-        margin-left: 226px;
+        
     }
 
     .header__burger-btn{
         display: flex;
+        order: 2;
+        margin-left: 226px;
     }
 
     .btn_nav{
@@ -183,7 +185,7 @@ body {
 
     .bar_menu{
         position: absolute;
-        left: -600px;
+        right: -200px;
         top: 0;
         background-color: #000;
         padding: 70px 20px 20px 25px;
@@ -192,7 +194,7 @@ body {
         display: flex;
         align-items: center;
         justify-self: center;
-        margin-left: 300px;
+        text-align: end;
         transition: left 0.5s ease;
     }
 
@@ -209,7 +211,8 @@ body {
     }
 
     .header.open .bar_menu{
-        left: -300px;
+        right: 0;
+        z-index: 1;
         
     }
 }

@@ -30,6 +30,28 @@
 
 .effects{
     margin-left: 132px;
+    width: 790px;
+    height: 245px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.theme{
+    width: 217px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.effects_text{
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
 }
 
 .join {
@@ -48,7 +70,7 @@
     text-align: center;
     color: #fff;
     font-family: "Ubuntu Sans", sans-serif;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .btn_join{
@@ -75,13 +97,10 @@
     background: #222224;
 }
 
-.effects_mobile{
-    display: none;
-}
-
 @media screen and (max-width: 400px) {
     .fourth_list{
-        height: 570px;
+        height: 770px;
+
         padding: 20px;
     }
 
@@ -94,15 +113,32 @@
         width: 242px;
         height: 218px;
         padding: 20px;
+        order: 2;
+        margin-top: 150px;
+    }
+
+    .theme{
+        width: 100%;
+        order: 2;
+        gap: 10px;
     }
 
     .effects{
-        display: none;
+        width: 100%;
+        order: 1;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-left: 0;
     }
 
-    .effects_mobile{
-        display: block;
-        margin-bottom: 46px;
+    .effects img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .effects_text{
+        font-size: 20px;
+    
     }
 
     .text_join{
