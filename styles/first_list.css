@@ -130,7 +130,7 @@
 
 @media (max-width: 400px){
     .main_section{
-        height: 270px;
+        height: 300px;
         display: flex;
         align-items: center;
         background-image: url("../img_mobile/unsplash_KaxVB5xh4Nw\ \(2\).png");
@@ -165,15 +165,15 @@
     }
 
     #learn_more_btn{
-        width: 85px;
-        height: 32px;
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 160px;
+        height: 55px;
     }
 
     .text_btn{
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .box{
