@@ -1,0 +1,114 @@
+.eleven_list{
+    width: 100%;
+    height: 520px;
+    background-image: url('../img/bg_eleven.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news{
+    
+    width: 793px;
+    height: 286px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.news_text{
+    width: 793px;
+    height: 174px;
+    text-align: center;
+}
+
+.news_h{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 114%;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+}
+
+.news_p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.news_search{
+    margin-top: 51px;
+    border-radius: 5px;
+    width: 430px;
+    height: 60px;
+    background: #28282a;
+    position: relative;
+}
+
+.news_search input{
+    border-radius: 5px;
+    width: 430px;
+    height: 60px;
+    background: #28282a;
+    border: none;
+}
+
+.input_news::placeholder{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #969696;
+    padding-left: 20px;
+}
+
+.news_search button{
+    border-radius: 5px;
+    width: 80px;
+    height: 60px;
+    background: #f23849;
+    border: none;
+    position: absolute;
+    right: 0px;
+}
+
+.news_search button:hover{
+    background-color: #28282a;
+}
+
+
+@media screen and (max-width: 393px) {
+    .eleven_list{
+        height: 400px;
+    }
+
+    .news{
+        width: 82%;
+        height: auto;
+    }
+
+    .news_text{
+        width: 100%;
+    }
+
+    .news_h{
+        font-size: 26px;
+    }
+
+    .news_p{
+        font-size: 14px;
+    }
+
+    .news_search{
+        width: 100%;
+    }
+
+    .news_search input{
+        width: 100%;
+    }
+}
