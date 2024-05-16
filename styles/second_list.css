@@ -93,6 +93,7 @@ hr {
     font-family: "Ubuntu Sans", sans-serif;
 }
 
+
 @media (max-width: 400px) {
     .second_list {
         height: 900px;

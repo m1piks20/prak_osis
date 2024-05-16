@@ -234,12 +234,7 @@
     gap: 24px;
 }
 
-/* Your existing CSS code */
-
-/* Media query for screens less than or equal to 393px */
-/* Your existing CSS code */
-
-/* Media query for screens less than or equal to 393px */
+  
 @media screen and (max-width: 393px) {
     .footer {
         height: auto;
