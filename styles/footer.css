@@ -228,6 +228,12 @@
     color: #777e90;
 }
 
+.partners{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
 /* Your existing CSS code */
 
 /* Media query for screens less than or equal to 393px */
@@ -251,11 +257,12 @@
         width: 100%;
         height: auto;
         margin-top: 20px;
+        gap: 45px;
     }
 
     .colum1 {
-        width: 100%;
-        height: auto;
+        /* width: 100%; */
+        margin: auto;
     }
 
     .footer_text {
@@ -273,19 +280,30 @@
     }
 
     .colum4 {
-        width: 100%;
+        /* width: 100%; */
         height: auto;
         margin-left: 0;
         margin-top: 50px;
+        margin: auto;
     }
 
     .footer_copirayt {
         width: 100%;
         position: relative;
         margin-top: 40px;
+        padding: 0 30px;
+
+    }
+
+    .copirate p {
+        font-size: 13px;
     }
 
     .center {
         width: 100%;
+    }
+
+    .partners{
+        gap: 10px;
     }
 }
