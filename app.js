@@ -178,25 +178,36 @@ let currentSlide = 0;
 const textSlides = document.querySelectorAll('.slider_txt .slide');
 let imageSlides = document.querySelectorAll('.slider_img .img1, .slider_img .img2, .slider_img .img3, .slider_img .img4, .slider_img .img5, .slider_img .img6, .slider_img .img7');
 
-function showSlide(index) {
+function showSlide(index, direction = 'forward') {
     // Скрываем все слайды
-    textSlides.forEach(slide => slide.style.display = 'none');
-    imageSlides.forEach(slide => slide.style.transform = 'scale(0.5)');
+    textSlides.forEach((slide, i) => {
+        slide.style.display = 'none';
+        slide.style.animation = ''; // Reset animation
+    });
+    imageSlides.forEach(slide => {
+        slide.style.transform = 'scale(0.5)';
+        slide.style.opacity = '0.5';
+        slide.style.border = 'none'; // Remove border from non-active images
+    });
 
     // Показываем текущий слайд
     textSlides[index].style.display = 'block';
+    textSlides[index].style.animation = direction === 'forward' ? 'slideInRight 1s forwards' : 'slideInLeft 1s forwards'; // Apply slide in animation to new slide
     imageSlides[index].style.transform = 'scale(1)';
+    imageSlides[index].style.opacity = '1';
+    imageSlides[index].style.border = '2px solid red'; // Add red border to active image
+    imageSlides[index].style.borderRadius = '50%'; // Make the border round
 }
 
 // Обработчики для кнопок "вперед" и "назад"
 document.querySelector('.next_slide').addEventListener('click', () => {
     currentSlide = (currentSlide + 1) % textSlides.length;
-    showSlide(currentSlide);
+    showSlide(currentSlide, 'forward');
 });
 
 document.querySelector('.prev_slide').addEventListener('click', () => {
     currentSlide = (currentSlide - 1 + textSlides.length) % textSlides.length;
-    showSlide(currentSlide);
+    showSlide(currentSlide, 'backward');
 });
 
 // Показываем первый слайд при загрузке страницы

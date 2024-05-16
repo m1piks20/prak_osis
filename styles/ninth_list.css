@@ -145,21 +145,44 @@
 
 .slider_img img{
     position: relative;
+    width: 110px;
 }
 
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
 .img1{
-    top: 20%;
-    left: 35%;
+    top: 10%;
+    left: 30%;
 }
 
 .img2{
-    bottom: -43%;
-    left: -15%;
+    bottom: -60%;
 }
 
 .img3{
-    top: -23%;
-    left: 25%;
+    top: -30%;
+    left: 20%;
 }
 
 .img4{
@@ -173,8 +196,7 @@
 }
 
 .img6{
-    left: 9%;
-    bottom: -5%;
+    left: -12%;
 }
 
 .img7{
@@ -269,8 +291,8 @@
     }
 
     .img5{
-        top: -5px;
-        left: -20px;
+        top: 100px;
+        left: 100px;
     }
 
     .img6{
@@ -279,7 +301,7 @@
     }
     
     .img7{
-        top: -4px;
-        left: 17px;
+        top: -15px;
+        left: 30px;
     }
 }

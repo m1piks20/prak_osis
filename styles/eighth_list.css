@@ -56,6 +56,63 @@
     position: relative;
 }
 
+.seti{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: absolute;
+    flex-direction: column;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.person_container1:hover{
+    .bg_def1{
+        background-color: #f23849;
+    }
+
+    .info1{
+        background-color: #f23849;
+    }
+
+    .name_trener1, .coach_direction1{
+        color: #fff;
+    }
+
+    .nagradi1{
+        color: #fff;
+    }
+    
+    .seti{
+        display: flex;
+    }
+}
+
+
+.person_container3:hover{
+    .bg_def3{
+        background-color: #f23849;
+    }
+
+    .info3{
+        background-color: #f23849;
+    }
+
+    .name_trener3, .coach_direction3{
+        color: #fff;
+    }
+
+    .nagradi3{
+        color: #fff;
+    }
+    
+    .seti{
+        display: flex;
+    }
+}
+
 .view_trainer1{
     width: 313px;
     height: 523px;
@@ -114,7 +171,7 @@
     border-radius: 15px 100px 15px 15px;
     width: 400px;
     height: 418px;
-    background: #f23849;
+    background: #fff;
     opacity: 0.1;
 
     bottom: 0;
@@ -125,7 +182,7 @@
     border-radius: 0 0 15px 15px;
     width: 400px;
     height: 128px;
-    background: #f23849;
+    background: #fff;
     display: flex;
     align-items: center;
 }
@@ -157,7 +214,7 @@
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-size: 24px;
-    color: #fff;
+    color: #f23849;
 }
 
 .coach_direction2{
@@ -165,23 +222,37 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 167%;
-    color: #fff;
+    color: #f23849;
 }
+
+.person_container2:hover{
+    .bg_def2{
+        background-color: #f23849;
+    }
+
+    .info2{
+        background-color: #f23849;
+    }
+
+    .name_trener2, .coach_direction2{
+        color: #fff;
+    }
+
+    .nagradi2{
+        color: #fff;
+    }
+
+    .seti{
+        display: flex;
+    }
+
+}
+
 .nagradi2{
     margin-left: 186px;
 }
 
-.seti{
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    position: absolute;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.5);
-}
+
 
 .seti a{
     width: 48px;
@@ -238,9 +309,9 @@
         order: 3;
     }
 
-    .view_trainer1, .view_trainer2, .view_trainer3 {
+    /* .view_trainer1, .view_trainer2, .view_trainer3 {
         width: 100%;
-    }
+    } */
 
     .bg_def1, .bg_def2, .bg_def3 {
         width: 100%;

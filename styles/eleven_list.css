@@ -68,8 +68,8 @@
 }
 
 .input_news:focus {
-    outline: none; /* Removes the default browser outline */
-    border: 1px solid red; /* Adds a red border */
+    outline: none; 
+    border: 1px solid red; 
 }
 
 .input_news::placeholder{
